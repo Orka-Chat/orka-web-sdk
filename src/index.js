@@ -20,6 +20,30 @@ class Orka {
     }
     document.head.appendChild(script);
   }
+
+  update(data) {
+    window.Orka.update(data);
+  }
+
+  reset() {
+    window.Orka.reset();
+  }
+
+  toggle() {
+    window.Orka.toggle();
+  }
+
+  show() {
+    window.Orka.show();
+  }
+
+  hide() {
+    window.Orka.hide();
+  }
+
+  destroy() {
+    window.Orka.destroy();
+  }
 }
 
 const instance = new Orka();
