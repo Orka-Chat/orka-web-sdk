@@ -1,0 +1,23 @@
+{
+  "name": "orka-web-sdk",
+  "version": "1.0.0",
+  "description": "Official Orka Web SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orka-Chat/orka-web-sdk.git"
+  },
+  "keywords": [
+    "chat",
+    "chatbot"
+  ],
+  "author": "Marc Delalonde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Orka-Chat/orka-web-sdk/issues"
+  },
+  "homepage": "https://github.com/Orka-Chat/orka-web-sdk#readme"
+}
