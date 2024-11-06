@@ -1,6 +1,6 @@
 {
   "name": "orka-web-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official Orka Web SDK",
   "main": "src/index.js",
   "scripts": {
