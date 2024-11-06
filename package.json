@@ -4,11 +4,12 @@
   "description": "Official Orka Web SDK",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Orka-Chat/orka-web-sdk.git"
+    "url": "git@github.com:Orka-Chat/orka-web-sdk.git"
   },
   "keywords": [
     "chat",
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/Orka-Chat/orka-web-sdk/issues"
   },
-  "homepage": "https://github.com/Orka-Chat/orka-web-sdk#readme"
+  "homepage": "https://github.com/Orka-Chat/orka-web-sdk#readme",
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3",
+    "pretty-quick": "^4.0.0"
+  }
 }
