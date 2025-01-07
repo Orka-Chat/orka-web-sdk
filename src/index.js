@@ -1,5 +1,7 @@
 class Orka {
-  constructor() {}
+  constructor() {
+    window.ORKA_SESSION = window.ORKA_SESSION || {};
+  }
 
   configure(appId, options = {}) {
     this.appId = appId;
@@ -22,7 +24,14 @@ class Orka {
   }
 
   update(data) {
-    window.Orka.update(data);
+    if (typeof window.Orka !== "undefined") {
+      window.Orka.update(data);
+    } else {
+      window.ORKA_SESSION = {
+        ...window.ORKA_SESSION,
+        ...data,
+      };
+    }
   }
 
   reset() {
