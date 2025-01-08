@@ -1,8 +1,9 @@
 {
   "name": "orka-web-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Official Orka Web SDK",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
